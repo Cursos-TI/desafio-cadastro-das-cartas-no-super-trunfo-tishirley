@@ -6,7 +6,7 @@ int main(){
     char nome[20];
     int populacao = 12325000;
     float area = 1521.11;
-    double pib = 69928000000.00;
+    double pib = 699279999999.00;
     int pontos;
     float densidade;
     float pibpercapta;
