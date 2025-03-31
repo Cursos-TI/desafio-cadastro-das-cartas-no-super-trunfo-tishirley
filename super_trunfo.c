@@ -10,7 +10,6 @@ int main(){
     int pontos;
     float densidade;
     float pibpercapta;
-    float km²;
     float reais;
     float quociente = (float) populacao / area; // 'populacao' é implicitamente convertido para float
 
