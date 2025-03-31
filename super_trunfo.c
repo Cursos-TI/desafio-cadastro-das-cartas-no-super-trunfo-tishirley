@@ -12,6 +12,7 @@ int main(){
     float pibpercapta;
     float reais;
     float quociente = (float) populacao / area; // 'populacao' é implicitamente convertido para float
+    float quociente = (float) pib / populacao; // 'populacao' é implicitamente convertido para float
 
     printf("Desafio Aventureiro: Cadastro das Cartas\n");
     printf("\n");
@@ -24,7 +25,8 @@ int main(){
     printf("Área: 1521.11 km²\n");
     printf("PIB: 699.28 bilhões de reais\n");
     printf("Números de Pontos Turísticos: 50\n");
-    printf("Densidade Populacional: %.2f\n", quociente);
+    printf("Densidade Populacional: %.2f hab/km²\n", quociente);
+    printf("Densidade Populacional: %.2f reais\n", quociente);
 
     
     printf("\n");
