@@ -4,18 +4,17 @@ int main(){
     char estado;
     char codigo[3];
     char nome[20];
-    int populacao[12325000];
-    float area;
-    float pib;
+    int populacao = 12325000;
+    float area = 1521.11;
+    float pib = 699.28;
     int pontos;
     float densidade;
     float pibpercapta;
     float km²;
     float reais;
-    float resultado = populacao / area;
-    divisao = 
+    float quociente = (float) populacao / area; // 'populacao' é implicitamente convertido para float
 
-    printf("Desafio Novato: Cadastro das Cartas\n");
+    printf("Desafio Aventureiro: Cadastro das Cartas\n");
     printf("\n");
 
     printf("Carta 1:\n");
@@ -26,9 +25,7 @@ int main(){
     printf("Área: 1521.11 km²\n");
     printf("PIB: 699.28 bilhões de reais\n");
     printf("Números de Pontos Turísticos: 50\n");
-
-    printf("Densidade Populacional: %.2f", km²);
-    scanf("%.2f", populacao / area);
+    printf("Densidade Populacional: %.2f\n", quociente);
 
     
     printf("\n");
