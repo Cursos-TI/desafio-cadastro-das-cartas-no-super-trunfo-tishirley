@@ -12,7 +12,7 @@ int main(){
     float pibpercapta;
     float reais;
     float quociente = (float) populacao / area; // 'populacao' é implicitamente convertido para float
-    float quociente2 = (float) pib / populacao; // 'populacao' é implicitamente convertido para float
+    double quociente2 = (float) pib / populacao; // 'populacao' é implicitamente convertido para float
 
     printf("Desafio Aventureiro: Cadastro das Cartas\n");
     printf("\n");
