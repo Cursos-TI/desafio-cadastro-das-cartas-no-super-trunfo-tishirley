@@ -8,6 +8,10 @@ int main(){
     float area;
     float pib;
     int pontos;
+    float densidade;
+    float pibpercapta;
+    float km²;
+    float reais;
 
 
     printf("Desafio Novato: Cadastro das Cartas\n");
@@ -21,6 +25,13 @@ int main(){
     printf("Área: 1521.11 km²\n");
     printf("PIB: 699.28 bilhões de reais\n");
     printf("Números de Pontos Turísticos: 50\n");
+
+    densidade = (float)
+(populacao / area);
+
+printf("Densidade Populacional: %.2f", km²);
+
+    
     printf("\n");
 
 
