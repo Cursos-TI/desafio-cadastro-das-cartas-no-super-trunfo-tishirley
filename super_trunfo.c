@@ -26,7 +26,7 @@ int main(){
     printf("PIB: 699.28 bilhões de reais\n");
     printf("Números de Pontos Turísticos: 50\n");
     printf("Densidade Populacional: %.2f hab/km²\n", quociente);
-    printf("Densidade Populacional: %.2f reais\n", quociente2);
+    printf("PIB per Capita: %.2f reais\n", quociente2);
 
     
     printf("\n");
