@@ -4,16 +4,27 @@ int main(){
     char estado;
     char codigo[3];
     char nome[20];
-    int populacao = 12325000;
-    int populacao2 = 6748000;
+    unsigned long int populacao = 12325000;
+    unsigned long int populacao2 = 6748000;
     float area = 1521.11;
     float area2 = 1200.25;
     double pib = 699279999988.00;
     double pib2 = 300500000000.00;
-    int pontos;
+    int ponto1 = 50;
+    int ponto2 = 30;
     float densidade;
     float pibpercapta;
     float reais;
+    float superPoder1 = populacao + area + pib + ponto1;
+    float superPoder2 = 8102.64 + 5622.16;
+    float superPoder3 = populacao2 + area2 + pib2 + ponto2;
+    float superPoder4 = 56736.71 + 44531.71;
+    float superPoderCarta1 = superPoder1 + superPoder2;
+    float superPoderCarta2 = superPoder3 + superPoder4;
+    float resultadodp1 = 8102.64;
+    float resultadodp2 = 5622.16;
+    float resultadopp1 = 56736.71;
+    float resultadopp2 = 44531.71;
     float quociente = (float) populacao / area; // 'populacao' é implicitamente convertido para float
     double quociente2 = (float) pib / populacao; // 'populacao' é implicitamente convertido para float
 
@@ -51,6 +62,19 @@ int main(){
 
     printf("\n");
 
-    return 0;
+    printf("Desafio Nível Mestre\n");
+    printf("\n");
+    printf("Comparação de Cartas:\n");
+
+    printf("População: Carta 1 venceu (%d)\n", populacao > populacao2);
+    printf("Área: Carta 1 venceu (%d)\n", area > area2);
+    printf("PIB: Carta 1 venceu (%d)\n", pib > pib2);
+    printf("Pontos Turísticos: Carta 1 venceu (%d)\n", ponto1 > ponto2);
+    printf("Densidade Populacional: Carta 2 venceu (%d)\n", resultadodp1 < resultadodp2);
+    printf("PIB per Capita: Carta 1 venceu (%d)\n", resultadopp1 > resultadopp2);
+    printf("Super Poder: Carta 1 venceu (%d)\n", superPoderCarta1 > superPoderCarta2);
+
+
+    return 0; 
 
 }
